@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Mahasiswa Berprestasi</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f5f5f5;
+      margin: 40px;
+    }
+
+    table {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+      text-align: center;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    thead {
+      background-color: #0073b1;
+      color: white;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+
+    tbody tr:hover {
+      background-color: #d1ecf1;
+      transition: 0.3s;
+    }
+
+    tfoot {
+      background-color: #0073b1;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Daftar Mahasiswa Berprestasi Universitas Bengkulu 2025</caption>
+
+    <thead>
+      <tr>
+        <th scope="col" rowspan="2">No</th>
+        <th scope="col" rowspan="2">Nama Mahasiswa</th>
+        <th scope="col" colspan="2">Akademik</th>
+        <th scope="col" rowspan="2">Prestasi</th>
+        <th scope="col" rowspan="2">Tahun</th>
+      </tr>
+      <tr>
+        <th>Program Studi</th>
+        <th>IPK</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ayu Putri</td>
+        <td>Pendidikan Bahasa Inggris</td>
+        <td>3.95</td>
+        <td>Juara Debat Bahasa Inggris Nasional</td>
+        <td>2025</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Rahma Aulia</td>
+        <td>Manajemen</td>
+        <td>3.82</td>
+        <td>Finalis Business Plan Competition</td>
+        <td>2024</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Dio Pratama</td>
+        <td>Informatika</td>
+        <td>3.80</td>
+        <td>Web Development Competition</td>
+        <td>2025</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Adinda Oktavia</td>
+        <td>Ilmu Komunikasi</td>
+        <td>3.70</td>
+        <td>Juara 2 Lomba Public Speaking</td>
+        <td>2025</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Diandra</td>
+        <td>Arsitektur</td>
+        <td>3.90</td>
+        <td>Lomba Melukis</td>
+        <td>2025</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="6">Total Mahasiswa: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
